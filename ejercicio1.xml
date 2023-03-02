@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jugadores>
-  <jugador numero="1">
+<?xml-stylesheet href="./xml.css"?>
+<jugadores class="container">
+  <jugador numero="1"class="jugador1">
     <nombre_jugador posicion="Delantero">Karim Benzema</nombre_jugador>
     <nombre_del_equipo>Real Madrid C.F</nombre_del_equipo>
     <entrenador>Carlo Ancelotti</entrenador>
@@ -8,7 +9,7 @@
     <estatura>1.85 m</estatura>
     <peso>81 kg</peso>
   </jugador>
-  <jugador numero="2">
+  <jugador numero="2"class="jugador2">
     <nombre_jugador posicion="Delantero">Kylian Mbappé</nombre_jugador>
     <nombre_del_equipo>Paris Saint-germain C.F</nombre_del_equipo>
     <entrenador>Christophe Galtier</entrenador>
@@ -16,7 +17,7 @@
     <estatura>1.78 m</estatura>
     <peso>73 kg</peso>
   </jugador>
-  <jugador numero="3">
+  <jugador numero="3"class="jugador3">
     <nombre_jugador posicion="Delantero,extremo izquierdo,extremo derecho,centro">Neymar</nombre_jugador>
     <nombre_del_equipo>Paris Saint-germain C.F</nombre_del_equipo>
     <entrenador>Christophe Galtier</entrenador>
@@ -24,7 +25,7 @@
     <estatura>1.75 m</estatura>
     <peso>68 kg</peso>
   </jugador>
-  <jugador numero="4">
+  <jugador numero="4"class="jugador4">
     <nombre_jugador posicion="Delantero o centrocampista">Lionel Messi</nombre_jugador>
     <nombre_del_equipo>Paris Saint-germain C.F</nombre_del_equipo>
     <entrenador>Christophe Galtier</entrenador>
@@ -32,7 +33,7 @@
     <estatura>1.70 m</estatura>
     <peso>72 kg</peso>
   </jugador>
-  <jugador numero="5">
+  <jugador numero="5"class="jugador5">
     <nombre_del_equipo posicion="Centrocampista">Federico Valverde</nombre_del_equipo>
     <nombre_del_equipo>Uruguya C.F</nombre_del_equipo>
     <entrenador>Ignacio Pallas </entrenador>
