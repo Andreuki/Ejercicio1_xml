@@ -1,44 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="./xml.css"?>
 <jugadores class="container">
-  <jugador numero="1"class="jugador1">
-    <nombre_jugador posicion="Delantero">Karim Benzema</nombre_jugador>
-    <nombre_del_equipo>Real Madrid C.F</nombre_del_equipo>
+  <jugador numero="1" class="jugador">
+    <nombre_jugador class="nj" posicion="Delantero">Karim Benzema</nombre_jugador>
+    <nombre_del_equipo> Real Madrid C.F</nombre_del_equipo>
     <entrenador>Carlo Ancelotti</entrenador>
-    <fecha_entrada mes="julio"año="2009"/>
+    <fecha_entrada mes="julio" año="2009"/>
     <estatura>1.85 m</estatura>
     <peso>81 kg</peso>
+    <image src="./imagenes/kmp1.png"/>
   </jugador>
-  <jugador numero="2"class="jugador2">
-    <nombre_jugador posicion="Delantero">Kylian Mbappé</nombre_jugador>
-    <nombre_del_equipo>Paris Saint-germain C.F</nombre_del_equipo>
+  <jugador numero="2" class="jugador">
+    <nombre_jugador class="nj" posicion="Delantero">Kylian Mbappé</nombre_jugador>
+    <nombre_del_equipo> Paris Saint-germain C.F</nombre_del_equipo>
     <entrenador>Christophe Galtier</entrenador>
-    <fecha_entrada mes="agosto"año="2017"/>
+    <fecha_entrada mes="agosto" año="2017"/>
     <estatura>1.78 m</estatura>
     <peso>73 kg</peso>
+    <image src="./imagenes/kmp2.jpg"/>
+
   </jugador>
-  <jugador numero="3"class="jugador3">
-    <nombre_jugador posicion="Delantero,extremo izquierdo,extremo derecho,centro">Neymar</nombre_jugador>
-    <nombre_del_equipo>Paris Saint-germain C.F</nombre_del_equipo>
+  <jugador numero="3" class="jugador">
+    <nombre_jugador class="nj" posicion="Delantero,extremo izquierdo,extremo derecho,centro">Neymar</nombre_jugador>
+    <nombre_del_equipo> Paris Saint-germain C.F</nombre_del_equipo>
     <entrenador>Christophe Galtier</entrenador>
     <fecha_entrada mes="agosto" año="2017"/>
     <estatura>1.75 m</estatura>
     <peso>68 kg</peso>
+    <image src="./imagenes/kmp1.png"/>
   </jugador>
-  <jugador numero="4"class="jugador4">
-    <nombre_jugador posicion="Delantero o centrocampista">Lionel Messi</nombre_jugador>
-    <nombre_del_equipo>Paris Saint-germain C.F</nombre_del_equipo>
+  <jugador numero="4" class="jugador">
+    <nombre_jugador class="nj" posicion="Delantero o centrocampista">Lionel Messi</nombre_jugador>
+    <nombre_del_equipo> Paris Saint-germain C.F</nombre_del_equipo>
     <entrenador>Christophe Galtier</entrenador>
-    <fecha_entrada mes="agosto"año="2021"/>
+    <fecha_entrada mes="agosto" año="2021"/>
     <estatura>1.70 m</estatura>
     <peso>72 kg</peso>
+    <image src="./imagenes/kmp1.png"/>
   </jugador>
-  <jugador numero="5"class="jugador5">
-    <nombre_del_equipo posicion="Centrocampista">Federico Valverde</nombre_del_equipo>
+  <jugador numero="5" class="jugador">
+    <nombre_del_equipo class="nj" posicion="Centrocampista">Federico Valverde</nombre_del_equipo>
     <nombre_del_equipo>Uruguya C.F</nombre_del_equipo>
     <entrenador>Ignacio Pallas </entrenador>
-    <fecha_entrada mes="julio"año="2018"/>
+    <fecha_entrada mes="julio" año="2018"/>
     <estatura>1.82 m</estatura>
     <peso>78 kg</peso>
+    <image src="./imagenes/kmp3.jpg"/>
   </jugador>
 </jugadores>
